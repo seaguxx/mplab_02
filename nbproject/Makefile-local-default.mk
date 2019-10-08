@@ -21,17 +21,17 @@ PATH:=D:/mplab/mplab_platform/platform/../mplab_ide/modules/../../bin/:$(PATH)
 # Path to java used to run MPLAB X when this makefile was created
 MP_JAVA_PATH="D:\mplab\sys\java\jre1.8.0_181/bin/"
 OS_CURRENT="$(shell uname -s)"
-MP_CC="D:\xc8\bin\xc8-cc.exe"
+MP_CC="D:\XC8\bin\xc8-cc.exe"
 # MP_CPPC is not defined
 # MP_BC is not defined
-MP_AS="D:\xc8\bin\xc8-cc.exe"
-MP_LD="D:\xc8\bin\xc8-cc.exe"
-MP_AR="D:\xc8\bin\xc8-ar.exe"
+MP_AS="D:\XC8\bin\xc8-cc.exe"
+MP_LD="D:\XC8\bin\xc8-cc.exe"
+MP_AR="D:\XC8\bin\xc8-ar.exe"
 DEP_GEN=${MP_JAVA_PATH}java -jar "D:/mplab/mplab_platform/platform/../mplab_ide/modules/../../bin/extractobjectdependencies.jar"
-MP_CC_DIR="D:\xc8\bin"
+MP_CC_DIR="D:\XC8\bin"
 # MP_CPPC_DIR is not defined
 # MP_BC_DIR is not defined
-MP_AS_DIR="D:\xc8\bin"
-MP_LD_DIR="D:\xc8\bin"
-MP_AR_DIR="D:\xc8\bin"
+MP_AS_DIR="D:\XC8\bin"
+MP_LD_DIR="D:\XC8\bin"
+MP_AR_DIR="D:\XC8\bin"
 # MP_BC_DIR is not defined
